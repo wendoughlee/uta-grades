@@ -1,5 +1,7 @@
 "use client";
 import React from 'react';
+import { IoArrowBackCircleOutline } from "react-icons/io5";
+
 
 interface SideBarProps {
     professors: string[];
@@ -98,14 +100,17 @@ interface SideBarProps {
           </ul>
 
           <button
-            onClick={() => {
-              setSelectedProfessor(null);
-              setSelectedYear(null);
-              setSelectedSemester(null);
-            }}
-            className="mt-4 text-blue-500 underline"
-          >
-            Back to Professors
+              onClick={() => {
+                setSelectedProfessor(null);
+                setSelectedYear(null);
+                setSelectedSemester(null);
+              }}
+              className="mt-4 text-blue-500 underline"
+              >
+
+            <IoArrowBackCircleOutline
+              
+            />
           </button>
         </div>
       ) : (
