@@ -108,8 +108,7 @@ interface SideBarProps {
               className="mt-4 text-blue-500 underline"
               >
 
-            <IoArrowBackCircleOutline
-              
+            <IoArrowBackCircleOutline            
             />
           </button>
         </div>
